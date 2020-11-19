@@ -12,6 +12,10 @@ class Coin {
   }
 
   toHTML() {
+    let image = document.createElement("img");
+
     console.log("coin.toHTML() has been invoked.");
+
+    return image;
   }
 }
